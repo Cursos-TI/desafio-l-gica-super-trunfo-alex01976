@@ -25,25 +25,25 @@ printf ("Desafio Super-Trunfo 2 - Novato.\n");
 printf("Estado A\n\n");
 
 printf("Digite o Estado da carta A: \n");
-   scanf("%s",&EstadoA);
+scanf("%s",&EstadoA);
 
-   printf("Digite o Código da Carta: \n");
-   scanf("%s",&Codigo_da_cartaA);
+printf("Digite o Código da Carta: \n");
+scanf("%s",&Codigo_da_cartaA);
 
-   printf("Digite o nome da cidade: \n");
-   scanf("%s", &Nome_da_cidadeA);
+printf("Digite o nome da cidade: \n");
+scanf("%s", &Nome_da_cidadeA);
 
-   printf("População: \n");
-   scanf("%d",&populacaoA);
+printf("População: \n");
+scanf("%d",&populacaoA);
 
-   printf("Área em Km \n");
-   scanf("%f",&Area_em_KmA);
+printf("Área em Km \n");
+scanf("%f",&Area_em_KmA);
 
-   printf("PIB: \n");
-   scanf("%f", &PIBA);
+printf("PIB: \n");
+scanf("%f", &PIBA);
 
-   printf("Número de Pontos Turísticos: \n");
-   scanf("%d", &Numero_de_Pontos_TuristicosA);
+printf("Número de Pontos Turísticos: \n");
+scanf("%d", &Numero_de_Pontos_TuristicosA);
 
 
 if (PIBA > PIBB){

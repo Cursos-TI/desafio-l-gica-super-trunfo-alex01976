@@ -1,6 +1,28 @@
 #include <stdio.h>
 
 int main() {
+
+    char EstadoA [50];
+    char Codigo_da_cartaA[50];
+    char Nome_da_cidadeA[50];
+    int PopulacaoA;
+    float PIBA;
+    int Numero_de_Pontos_TuristicosA;
+    float Densidade_Populacional_A;
+    float PIB_Per_Capita_A;
+    float SuperPoderA;
+
+
+
+
+
+
+
+
+
+
+
+
 printf ("Desafio Super-Trunfo 2 - Novato.\n");
 
     // 

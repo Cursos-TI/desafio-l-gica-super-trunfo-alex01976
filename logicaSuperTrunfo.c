@@ -5,6 +5,7 @@ int main() {
     char EstadoA [50];
     char Codigo_da_cartaA[50];
     char Nome_da_cidadeA[50];
+    float Area_em_KmA
     int PopulacaoA;
     float PIBA;
     int Numero_de_Pontos_TuristicosA;

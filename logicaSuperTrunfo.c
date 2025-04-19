@@ -8,9 +8,7 @@ int main() {
     int PopulacaoA;
     float PIBA;
     int Numero_de_Pontos_TuristicosA;
-    float Densidade_Populacional_A;
-    float PIB_Per_Capita_A;
-    float SuperPoderA;
+    
 
     char EstadoB [50];
     char Codigo_da_cartaB[50];
@@ -19,23 +17,39 @@ int main() {
     float Area_em_KmB;
     float PIBB;
     int Numero_de_Pontos_TuristicosB;
-    float Densidade_Populacional_B;
-    float PIB_Per_Capita_B;
-    float SuperPoderB;
-
-
+    
+    
 printf ("Desafio Super-Trunfo 2 - Novato.\n");
 
 printf("Estado A\n\n");
 
+printf("Digite o Estado da carta A: \n");
+   scanf("%s",&EstadoA);
+
+   printf("Digite o Código da Carta: \n");
+   scanf("%s",&Codigo_da_cartaA);
+
+   printf("Digite o nome da cidade: \n");
+   scanf("%s", &Nome_da_cidadeA);
+
+   printf("População: \n");
+   scanf("%d",&populacaoA);
+
+   printf("Área em Km \n");
+   scanf("%f",&Area_em_KmA);
+
+   printf("PIB: \n");
+   scanf("%f", &PIBA);
+
+   printf("Número de Pontos Turísticos: \n");
+   scanf("%d", &Numero_de_Pontos_TuristicosA);
 
 
-
-
-
-
-
-
+if (PIBA > PIBB){
+printf("Cidade A é mais rica!\n");
+} else {
+    printf("Cidade B é mais rica!");
+}
 
 
     

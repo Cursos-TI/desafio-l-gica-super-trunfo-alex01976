@@ -12,20 +12,31 @@ int main() {
     float PIB_Per_Capita_A;
     float SuperPoderA;
 
-
-
-
-
-
-
-
-
-
+    char EstadoB [50];
+    char Codigo_da_cartaB[50];
+    char Nome_da_cidadeB[50];
+    int populacaoB;
+    float Area_em_KmB;
+    float PIBB;
+    int Numero_de_Pontos_TuristicosB;
+    float Densidade_Populacional_B;
+    float PIB_Per_Capita_B;
+    float SuperPoderB;
 
 
 printf ("Desafio Super-Trunfo 2 - Novato.\n");
 
-    // 
+printf("Estado A\n\n");
+
+
+
+
+
+
+
+
+
+
 
     
     // Cadastro das Cartas:

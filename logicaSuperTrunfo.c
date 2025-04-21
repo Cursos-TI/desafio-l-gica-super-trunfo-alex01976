@@ -68,7 +68,7 @@ printf("Estado B\n");
    printf("Número de Pontos Turísticos: \n");
    scanf("%d", &Numero_de_Pontos_TuristicosB);
 
-   if (PopulacaoA < populacaoB){
+   if (PopulacaoA > populacaoB){
     printf("Cidade A venceu, maior população!\n");
    }else {
     printf("Cidade B venceu, maior população!\n");

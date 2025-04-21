@@ -68,6 +68,27 @@ printf("Estado B\n");
    printf("Número de Pontos Turísticos: \n");
    scanf("%d", &Numero_de_Pontos_TuristicosB);
 
+   if (PopulacaoA < populacaoB){
+    printf("Cidade A venceu, maior população!\n");
+   }else {
+    printf("Cidade B venceu, maior população!\n");
+   }
+    if (PIBA > PIBB){
+    printf("Cidade A é mais rica, venceu!\n");
+    } else {
+        printf("Cidade B é mais rica, venceu!\n");
+    }
+    if (Area_em_KmA > Area_em_KmB){
+        printf("A cidade A vence, maior área!\n");
+    }else {
+        printf("A cidade B vence, maior área!\n");
+    }
+    if (Numero_de_Pontos_TuristicosA > Numero_de_Pontos_TuristicosB){
+        printf("Cidade A vence,tem mais pontos turísticos!\n");
+    }else{
+        printf("Cidade B vence, tem mais pontos turísticos!\n");
+    }
+
 
 
     return 0;

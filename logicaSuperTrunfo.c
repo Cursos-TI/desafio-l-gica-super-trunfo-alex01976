@@ -92,7 +92,7 @@ printf("Estado B\n");
     printf("Estado da Carta A: %s \n" , EstadoA);
    printf("Código da Carta A: %s \n" , Codigo_da_cartaA);
    printf("A Cidade A é: %s \n" , Nome_da_cidadeA);
-   printf("A População A é de: %f \n" , populacaoA );
+   printf("A População A é de: %f \n" , PopulacaoA);
    printf(" A Área em Km de A é de: %.2f \n" , Area_em_KmA);
    printf("O PIB de A é: %.2f \n" , PIBA);
    printf("Os Pontos Turísticos de A são: %d \n" , Numero_de_Pontos_TuristicosA);

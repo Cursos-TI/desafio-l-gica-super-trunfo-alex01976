@@ -89,6 +89,22 @@ printf("Estado B\n");
         printf("Cidade B vence, tem mais pontos turísticos!\n");
     }
 
+    printf("Estado da Carta A: %s \n" , EstadoA);
+   printf("Código da Carta A: %s \n" , Codigo_da_cartaA);
+   printf("A Cidade A é: %s \n" , Nome_da_cidadeA);
+   printf("A População A é de: %f \n" , populacaoA );
+   printf(" A Área em Km de A é de: %.2f \n" , Area_em_KmA);
+   printf("O PIB de A é: %.2f \n" , PIBA);
+   printf("Os Pontos Turísticos de A são: %d \n" , Numero_de_Pontos_TuristicosA);
+  
+   printf("EstadoB %s \n", EstadoB);
+   printf("CódigoB: %s \n", Codigo_da_cartaB);
+   printf("CidadeB: %s \n", Nome_da_cidadeB);
+   printf("PopulaçãoB: %d \n", populacaoB);
+   printf("ÁreaB: %.2f \n", Area_em_KmB);
+   printf("PIBB: %.2f \n", PIBB);
+   printf("Pontos TurísticosB: %d \n", Numero_de_Pontos_TuristicosB);
+
 
 
     return 0;

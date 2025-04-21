@@ -34,7 +34,7 @@ printf("Digite o nome da cidade: \n");
 scanf("%s", &Nome_da_cidadeA);
 
 printf("População: \n");
-scanf("%d",&populacaoA);
+scanf("%d",&PopulacaoA);
 
 printf("Área em Km \n");
 scanf("%f",&Area_em_KmA);
